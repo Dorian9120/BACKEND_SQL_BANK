@@ -40,11 +40,11 @@ Suivez scrupuleusement ces étapes dans l'ordre pour garantir le bon fonctionnem
 
 Créez un fichier `.env` dans le dossier `/server` :
 
-```env
+```
 DB_HOST=localhost
 DB_USER=votre_utilisateur ou root
 DB_PASSWORD=votre_mot_de_passe
-DB_NAME=SQL_BANK_H3
+DB_NAME=SQL_BANK
 DB_PORT=3306
 PORT=3000
 ```
@@ -53,5 +53,7 @@ PORT=3000
 
 1. Faites les deux commandes suivante dans un terminal :
 
+```bash
 - cd server
 - npm run dev
+```
